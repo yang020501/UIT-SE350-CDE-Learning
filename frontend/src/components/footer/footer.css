@@ -1,0 +1,230 @@
+.footer-container
+{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+#logo {
+  width: 600px;
+  height: 550px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  font-family: inherit;
+}
+
+.Footer-component {
+  margin: 0;
+  padding: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+}
+
+.Footer-banner-main-form {
+  margin: 31px 31px 31px 58px;
+  display: flex;
+  align-items: center;
+}
+
+.Footer-form {
+  color: #1a202c;
+  width: 350px;
+  height: 44px;
+  z-index: 2;
+  font-size: 16px;
+  background: #EDF2F7;
+  font-weight: 600;
+  line-height: 19px;
+  padding-left: 12px;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  cursor: text;
+  display: inline-flex;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.input-main {
+  outline: none;
+  font: inherit;
+  outline: none;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+.Footer-infor {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.widget {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: .2px;
+  color: #777777;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 25%;
+  padding-bottom: 20px;
+}
+
+.Footer-final {
+  margin-top: auto;
+}
+
+.footer-infor-left p:hover,
+.footer-infor-main p:hover,
+.footer-infor-right p:hover {
+  color: #00b6f3;
+
+}
+
+ul a:hover {
+  color: #00b6f3
+}
+
+.col-md-6 {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: .2px;
+  color: #777777;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 50%;
+}
+
+.useful_links li {
+  padding: 6px 0;
+}
+
+.blog_posts li small {
+  color: #acbac4;
+  display: block;
+  padding-top: 4px;
+}
+
+.blog_posts {
+  padding-top: 15px;
+}
+
+.blog_posts li {
+  padding: 8px 0;
+}
+
+.col-md-6 {
+  float: left;
+  width: 50%;
+}
+
+.logo {
+  margin-bottom: 22px;
+  width: 120px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.widget h5 {
+  color: #606060;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+h5 {
+  font-size: 1.3em;
+  line-height: 1.1em;
+}
+
+.widget a {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  color: #858a99;
+}
+
+.social_media a:hover {
+  transform: scale(1, 01.1);
+}
+
+.social_media a:hover {
+  background: #abe1f3;
+
+  text-decoration: none;
+  outline: none;
+}
+
+.social_media {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: .2px;
+  color: #777777;
+  box-sizing: border-box;
+  margin: 0;
+  float: right;
+  padding: 2px 0;
+}
+
+.ion-social-youtube {
+  color: red
+}
+
+.ion-social-twitter {
+  color: #4099ff;
+}
+
+.ion-social-instagram {
+  color: #d34836;
+}

@@ -1,0 +1,47 @@
+@media (min-width: 992px) {
+
+    #exam.modal-lg,
+    #exam.modal-xl {
+        max-width: 1480px !important;
+    }
+}
+
+#exam-body {
+    height: 800px !important;
+}
+
+.left-content {
+    position: fixed;
+    overflow: hidden;
+    width: 590px;
+
+}
+.right-content {
+    border-left: 1px solid #e0e3e7;
+}
+
+.add-btn {
+    background-color: green !important;
+    
+}
+#quescreate{
+    cursor: pointer;
+}
+.Content h1 {
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #da0f0b;
+    text-transform: none;
+    text-shadow: none;
+    text-align: left;
+}
+.Content {
+    display: table;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+}

@@ -1,0 +1,64 @@
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.box {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ecebebe8;
+    border-radius: 4px;
+    border: 3px solid #e6e8e9;
+    padding: 20px !important;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #ccc9c9 ;
+}
+
+.activebox {
+    background-color: #ccc9c9 !important;
+}
+
+.alt-text {
+    padding-top: 15px;
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+span {
+    font-weight: inherit;
+    font-family: Roboto, Helvetica Neue, sans-serif;
+}
+
+.page {
+    margin-top: 130px;
+    padding-top: 50px;
+    background-color: #ecf0f5 !important;
+
+}
+
+.btn-box {
+    margin-top: 20px;
+}
+
+.create-btn {
+    margin-left: 0 !important;
+    width: 100px;
+    background-color: green !important;
+    opacity: 0.6;
+    border: none !important;
+}
+
+.create-btn-svg {
+    position: relative;
+    left: 5px;
+    top: -1px;
+}
+
+.spacing {
+    margin-top: 20px;
+}

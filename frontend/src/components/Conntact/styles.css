@@ -1,0 +1,117 @@
+.contact-container {
+    padding: 0 40px;
+  }
+  .contact-info {
+    list-style-type: none;
+  }
+  .contact-info li {
+    padding: 8px 0;
+    font-weight: 700;
+  }
+  .contact-info li span {
+    display: block;
+    font-size: 1em;
+    color: #deb666;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .social_media a {
+    background: #fff;
+    border: 1px solid #e6eff2;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 1px;
+    line-height: 40px;
+    margin: 4px;
+    text-align: center;
+  }
+  .twitter {
+    color: #4099ff;
+  }
+  .googleplus {
+    color: #d34836;
+  }
+  .pinterest {
+    color: #cb2027;
+  }
+  .linkedin {
+    color: #007bb6;
+  }
+  .youtube {
+    color: #bb0000;
+  }
+  .facebook {
+    color: #3b5998;
+  }
+  .instagram {
+    margin-right: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .contact-form-label {
+    font-size: 0.9em;
+    color: #606060;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .contact-fomr-input {
+    height: 52px;
+    border-radius: 1px;
+    border: 1px solid #dfdfdf;
+    background-color: #fcfcfc;
+    color: #b3b3b3;
+    transition: all ease 0.3s;
+    font-size: 1em;
+    width: 100%;
+    padding: 6px 12px;
+    outline: none;
+  }
+  .contact-form-content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 0 10px 20px;
+  }
+  .contact-form-container-header {
+    display: flex;
+    gap: 0 20px;
+  }
+  .button.btn_blue:hover 
+  { background-color:#c4b63c;
+    cursor: pointer;
+  }
+  .button.btn_blue {
+    background: #deb666;
+    border-color: #deb666;
+    color: #fff;
+    border: 1px solid;
+      border-radius: 1px;
+      font-size: .9em;
+      padding: 8px 15px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      transition: all ease 0.3s;
+      display: inline-block;
+      line-height: 1.82857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      touch-action: manipulation;
+      cursor: pointer;
+      user-select: none;
+      text-transform: uppercase;
+  }
+  .contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }

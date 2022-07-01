@@ -1,0 +1,129 @@
+.image-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.image-main-title{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+.image-main-title h2{
+    color: #03023a;
+    font-size: 2.2em;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    padding-top: 40px;
+    animation: animation-main-title 2.5s 3s forwards;
+    transition: all 1s;
+    opacity: 0;
+  }
+  @keyframes animation-banner {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes animation-main-title {
+    0% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  @keyframes animation-sub-title {
+    0% {
+      transform: rotate(270deg) translateY(250%);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(270deg) translateY(0);
+      opacity: 1;
+    }
+  }
+
+.image-main-title::after{
+    background: url('https://preview.eagle-themes.com/html/zante/images/icons/wave_blue.svg');
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 80px;
+    margin: 10px auto;
+    opacity: .5;
+}
+.image-gs2{
+
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 50px;
+}
+.image-gs2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    border: 50px solid transparent;
+    border-top: 50px solid #fefefe;
+    top: -70px;
+    left: -70px;
+    box-shadow: 0px -7px 6px -9px black;
+    transform: rotate(135deg);
+    z-index: 9;
+}
+.image-gs2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border: 50px solid transparent;
+    border-bottom: 50px solid #fefefe;
+    bottom: -70px;
+    right: -70px;
+    box-shadow: 0px 7px 6px -9px black;
+    transform: rotate(135deg);
+    z-index: 9;
+}
+.hover_effect{
+    display: block;
+    position: relative;
+    background: none;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    color: #1dc1f8;
+    text-decoration: none;
+}
+.img-responsive{
+    display: block;
+    position: relative;
+    backface-visibility: hidden;
+    transition: all 0.3s ease-out;
+    max-width: 100%;
+    height: auto;
+}
+.hover_effect:hover{
+    background: #facaa2;
+    color: #e6a689;
+    text-decoration: none;
+    outline: none;
+}
+
+.hover_effect:hover .img-responsive{
+    transform: scale(1.1);
+    opacity: 0.4;
+}.image-item-content{
+    padding: 0 20px;
+  }
